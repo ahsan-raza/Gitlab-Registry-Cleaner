@@ -159,7 +159,7 @@ for ((page = 1; page <= total_pages; page++)); do
                     let "del_count+=1"
                     echo "         Deleting tag:=============> ${tag_name}"
                     echo "         Age of deleting tag (latest):=============> ${age_in_days}" 
-                    #delete_docker_image "${project_id}" "${repository_id}" "${tag_name}"
+                    delete_docker_image "${project_id}" "${repository_id}" "${tag_name}"
                     # Add the deleted tag URL to the text file
                     echo "Tag                                                                                                                        Age:" >>"$keep_n_tags_file"
                     echo "${location}" "    " "${age_in_days}" " days" >> "$deleted_tags_file"
