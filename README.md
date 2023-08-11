@@ -13,7 +13,7 @@ This Bash script automates the management of Docker image tags in your GitLab re
 5. **Record Keeping**: The script will create three files in the currect directory.\
   i. `deleted_tags_file`: This file keeps the record of all the deleted tags and their age.\
   ii. `keep_n_tags_file`: This file keeps the record of all the retained tags and their age.\
-  iii. `deleted_tags_proj`: This file keeps the number of images that are deleted in the whole project. If the project has multiple repository it will list all the repository and the total tags deleted in all the repository. If any project does not have a repository, this file will also have such information.\
+  iii. `deleted_tags_proj`: This file keeps the number of images that are deleted in the whole project. If the project has multiple repository it will list all the repository and the total tags deleted in all the repository. If any project does not have a repository, this file will also have such information
 
 ## Parameters
 
