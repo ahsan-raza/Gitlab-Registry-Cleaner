@@ -24,6 +24,7 @@ Before using the script, configure the following parameters:
 - **NAME_REGEX_DELETE**: The regex pattern used to match Docker image tags for deletion.
 - **RETENTION_DAYS**: The maximum age (in days) of Docker image tags to be retained.
 - **NUM_LATEST_TO_RETAIN**: Number of Latest tags by creation date of Matched Regex to Retain in Repository.
+- **REG_DELETE**: Name of the Registry inside the Project from which the tags should be deleted. use `$REG_DELETE=""` if you want to delete the tags from the root registry.
 
 
 ## Usage
